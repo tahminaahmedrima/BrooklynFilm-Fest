@@ -121,4 +121,27 @@
   .contactus {
     width: 100%;
   }
+  .mobile-nav-items {
+    display: block;
+    margin-top: 70px;
+  }
+  .mobile-nav-items li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px 5px;
+  }
+  .mobile-nav-items li a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    border-bottom: none;
+  }
+  .mobile-nav-icon {
+    position: absolute !important;
+    float: right;
+    cursor: pointer;
+    display: flex;
+    top: 0px;
+    right: 15px;
+  }
 }

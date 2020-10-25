@@ -13,4 +13,8 @@ $(document).ready(function () {
       document.getElementById("main-nav").className = "";
     }
   }
+  $(".mobile-nav-icon").click(function () {
+    $("#nav-items").toggle();
+    document.getElementById("nav-items").className = "mobile-nav-items";
+  });
 });
