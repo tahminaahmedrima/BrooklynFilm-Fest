@@ -119,7 +119,10 @@
     padding: 25px 0;
   }
   .contactus {
-    width: 100%;
+    width: 20%;
+  }
+  .contactus-img {
+    text-align: center;
   }
   .mobile-nav-items {
     display: block;
@@ -137,7 +140,7 @@
     border-bottom: none;
   }
   .mobile-nav-icon {
-    position: absolute !important;
+    position: absolute;
     float: right;
     cursor: pointer;
     display: flex;
